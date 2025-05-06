@@ -3,6 +3,7 @@
 $nama= "Yusuf";
 $major="infornmatika";
 $nim="H1D024049";
+$teman="hafizh";
 ?>
 
 <!DOCTYPE html>
@@ -15,6 +16,7 @@ $nim="H1D024049";
 <body>
     <h1>Halo nama saya <?php echo $nama ?> </h1>
     <h1>Saya dari jurusan <?php echo $major?></h1>
-    <h1> Ninm saya <?php $nim?> </h1>
+    <h1> Ninm saya <?php echo $nim?> </h1>
+    <h1>teman saya adalaah = <?php echo $teman ?></h1>
 </body>
 </html>
